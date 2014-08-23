@@ -18,7 +18,9 @@
         "psr-0": {
             "PDOFactory": "src/lib/",
             "UserManager": "src/lib/",
-            "User": "src/lib/"
+            "User": "src/lib/",
+            "Auth": "src/lib/",
+            "Debug": "src/lib/"
         }
     }
 }

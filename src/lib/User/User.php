@@ -1,16 +1,19 @@
 <?php
 
+namespace User;
+
 Class User {
 
 	private $_id;
 	private $_username;
 	private $_password;
 
-	public function __construct(array $donnees) {
+	public function __construct(array $data) {
 
+		$this->hydrate($data);
 	}
 
-	public function hydrate(array $donnees) {
+	public function hydrate(array $data) {
 
 	}
 
