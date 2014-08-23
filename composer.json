@@ -1,0 +1,24 @@
+{
+    "name": "nk-web-git/portfolio-php",
+    "type": "library",
+    "keywords": ["portfolio","portfolio-php"],
+    "license": "MIT",
+    "description": "a small API to easily create its portfolio in php",
+    "authors": [
+        {
+            "name": "NK-WEB-Git",
+            "email": "nkuinjeustephane@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "PDOFactory": "src/lib/",
+            "UserManager": "src/lib/",
+            "User": "src/lib/"
+        }
+    }
+}
