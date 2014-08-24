@@ -9,6 +9,7 @@ return array(
     'UserManager' => array($baseDir . '/src/lib'),
     'User' => array($baseDir . '/src/lib'),
     'PDOFactory' => array($baseDir . '/src/lib'),
+    'Form' => array($baseDir . '/src/lib'),
     'Debug' => array($baseDir . '/src/lib'),
     'Auth' => array($baseDir . '/src/lib'),
 );

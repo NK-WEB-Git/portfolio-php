@@ -20,7 +20,8 @@
             "UserManager": "src/lib/",
             "User": "src/lib/",
             "Auth": "src/lib/",
-            "Debug": "src/lib/"
+            "Debug": "src/lib/",
+            "Form": "src/lib/"
         }
     }
 }

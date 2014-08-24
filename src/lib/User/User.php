@@ -19,40 +19,41 @@ Class User {
 
 	public function getId() {
 
+		return $this->_id;
 	}
 
 	public function getUsername() {
 
+		return $this->_username;
 	}
 
 	public function getPassword() {
 
+		return $this->_password;
 	}
 
-	public function setId() {
+	public function setId($id) {
+
+		$id = (int) $id;
+
+		if( $id > 0) {
+
+			$this->_id = 0;
+		}
 
 	}
 
-	public function setUsername() {
+	public function setUsername($username) {
 
+		if(is_string($username)) {
+
+			$this->_username = $username;
+		}
 	}
 
 	public function setPassword() {
 
 	}
-
-	public function login() {
-
-	}
-
-	public function logout() {
-
-	}
-
-	public function updatePassword(){
-
-	}
-
 
 }
 

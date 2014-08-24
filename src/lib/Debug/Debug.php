@@ -18,6 +18,11 @@ Class Debug  {
 
 		return var_dump($_SESSION);
 	}
+
+	static public function getDataPost() {
+
+		return var_dump($_POST);
+	}
 	
 }
 
