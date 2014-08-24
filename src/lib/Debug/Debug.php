@@ -4,17 +4,17 @@ namespace Debug;
 
 Class Debug  {
 
-	public function getDataServer() {
+	static public function getDataServer() {
 
-		return var_dump($_SERVER)
+		return var_dump($_SERVER);
 	}
 
-	public function getDataConst() {
+	static public function getDataConst() {
 
-		return $const;
+		return var_dump(get_defined_constants());
 	}
 
-	public function getDataSession() {
+	static public function getDataSession() {
 
 		return var_dump($_SESSION);
 	}
